@@ -1,0 +1,61 @@
+/* body */
+body{
+    background-color: beige;
+}
+
+/* content */
+.content{
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 80px;
+    max-width: 700px;
+    text-align: center;
+    margin: auto;
+    margin-top: 100px;
+}
+
+/* content table */
+table{
+    font-family: 'Trebuchet MS';
+    border-collapse: collapse;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+/* table header, table data style */
+td, th {
+    border: 1px solid slategray;
+    text-align: center;
+    padding: 8px;
+}
+
+/* heading, paragraph */
+h1, p{
+    color: slategray;
+    font-family: 'Trebuchet MS';
+
+}
+
+h2{
+    text-align: center;
+    font-family: 'Trebuchet MS';
+}
+
+/* button */
+button{
+
+    margin-bottom: 10px;
+}
+
+/* footer */
+footer{
+    background-color: white;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}

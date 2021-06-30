@@ -1,0 +1,13 @@
+#prerequisite for mod_rewrite
+Options +FollowSymLinks
+
+#enables mod_rewrite
+RewriteEngine On
+
+#Condition
+RewriteCond %{REQUEST_FILENAME} !\.(jpg|jpeg|gif|png|css|js|pl|txt)$
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+
+#defines the rule
+RewriteRule ^(.*)$ index.php [QSA,L]
