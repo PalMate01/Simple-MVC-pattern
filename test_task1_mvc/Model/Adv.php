@@ -1,5 +1,4 @@
 <?php
-// 9. station
 class Adv_model{
 
     // declare variable

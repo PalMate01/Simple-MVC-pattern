@@ -1,4 +1,3 @@
-<!-- 5. station -->
 <!-- display Footer and close html -->
 
 <!-- Footer -->

@@ -1,5 +1,4 @@
 <?php
-// 10. station
 class AppService{
 
     //List of all Advertisements
@@ -19,7 +18,6 @@ class AppService{
 
     //list of all users
     public static function getAllUser(){
-        //-->[+]
         // Declare a array
         $list = [];
         // store Db class, getDb method values
@@ -30,10 +28,8 @@ class AppService{
         while($row = mysqli_fetch_assoc($result)){
             $list[] = new User_model($row['id'], $row['name']);
         }
-        // heureka! I have a package
-        // this is my package -->[P]<--
-        // Now go back and display the package
-        return $list; //-->[P]
+
+        return $list;
     }
 }
 ?>

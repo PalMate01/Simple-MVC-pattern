@@ -1,4 +1,4 @@
-<?php /* 11. (end) station */ include "View/Header.php"; ?>
+<?php include "View/Header.php"; ?>
 
 <br><br><br>
 
@@ -8,7 +8,7 @@
     <tr>
         <?php foreach ($users as $user) {?> 
             <tr>
-            <td><?php echo $user->name;?></td> <!-- [P] That's all! -->
+            <td><?php echo $user->name;?></td>
             </tr>
         <?php }?>
     </tr>

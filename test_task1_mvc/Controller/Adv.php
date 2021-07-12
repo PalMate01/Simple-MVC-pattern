@@ -1,5 +1,4 @@
 <?php
-// 8. station
 class Adv{
 
     function all(){

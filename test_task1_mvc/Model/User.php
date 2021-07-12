@@ -1,5 +1,4 @@
 <?php
-// 9. station
 class User_model{
 
     // declare variable
@@ -16,10 +15,9 @@ class User_model{
     //list of all users
     public static function getAll(){
 
-        //-->[+]
         require_once('Model/appService.php');
         // return the AppService class, getAllUser method values
-        return AppService::getAllUser(); //-->[P]
+        return AppService::getAllUser();
         
     }
 }

@@ -1,4 +1,3 @@
-<!-- 4. station -->
 <!-- start html and display Header -->
 <!DOCTYPE html>
 <html lang="hu">

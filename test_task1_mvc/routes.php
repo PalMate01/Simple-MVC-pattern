@@ -1,9 +1,6 @@
 <?php
-// 2. station
 // Waiting for POST users or advs request
 // You have "users" or "advs" request
-// 7. station
-//-->[+]
 if (isset($_POST['users']) || isset($_POST['advs'])) {
   // Call method
   function call($controller, $action){
@@ -12,7 +9,6 @@ if (isset($_POST['users']) || isset($_POST['advs'])) {
     require_once("Model/$controller.php");
 
     // Inheritance
-    //-->[+]
     // (User = new User)
     // User -> all();
     $controller = new $controller;
@@ -23,14 +19,11 @@ if (isset($_POST['users']) || isset($_POST['advs'])) {
   $controllers = array('User' => ['all'], 'Adv' => ['all', 'allFromUser']);
 
   // The controller is exists?
-  //-->[+]
   if (array_key_exists($controller, $controllers)) {
     //The method is exists?
-    //-->[+]
       if (in_array($action, $controllers[$controller])) {
 
         // Call the call method with params
-        //-->[+]
         call($controller, $action);
       } else {
 
